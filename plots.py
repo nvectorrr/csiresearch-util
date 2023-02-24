@@ -11,7 +11,7 @@ accr_oob_20 = [72.1523178807947, 85.26821192052981, 98.22847682119206, 99.049668
 n_feat_20 = [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 15, 16, 18, 20, 23, 25, 27, 31, 32, 36, 40, 42, 45, 52, 55, 60, 68, 71, 80, 87, 97, 110]
 
 plt.figure()
-plt.plot(n_feat_40, accr_red_40) #blue
+plt.plot(n_feat_40, accr_red_40) # blue
 plt.plot(n_feat_40, accr_oob_40) # orange
 plt.plot(n_feat_20, acrr_red_20) # green
 plt.plot(n_feat_20, accr_oob_20) # red
